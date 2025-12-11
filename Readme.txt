@@ -31,3 +31,18 @@ The `reminder.py` script is fully functional and follows the assignment requirem
 
 In the current database, you may see the message:
 No stale locks to notify.
+# Setup Firebase Credentials
+
+This project requires Firebase service account credentials to send notifications.
+
+## Steps:
+
+1. Go to your Firebase Console → Project Settings → Service Accounts → Generate a new private key.
+2. Download the JSON file.
+3. **Do not commit this file to Git**. Save it locally in the project root as:
+
+4. Your `reminder.py` and `fast.py` will automatically use this file.
+
+---
+:
+
